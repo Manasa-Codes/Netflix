@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(35, 35, 35);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    color: red;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav p {
+    font-size: 14px;
+    color: rgb(173, 170, 170);
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+nav .fas {
+    color: white;
+    font-size: 18px;
+}
+
+.nav-icons {
+    position: relative;
+    left: 560px;
+    display: flex;
+    gap: 28px;
+}
+
+.drop select {
+    width: 40px;
+    height: 40px;
+    margin-left: 600px;
+    background-image: linear-gradient(rgb(234, 234, 245), rgb(52, 8, 107));
+    border: none;
+    border-radius: 5px;
+    text-overflow: ellipsis;
+    background-repeat: no-repeat;
+}
+
+select {
+    background-color: black;
+    color: white;
+}
+
+.drop select option {
+    background-color: #fff;
+    color: #000;
+}
+
+.search-bar-container {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 1060px;
+    background-color: #000000;
+    z-index: 1000;
+}
+
+#search-bar {
+    width: 250px;
+    height: 15px;
+    padding: 10px;
+    border-color: white;
+    color: #fff;
+    background-color: #272626;
+    font-size: 16px;
+}
+
+.bigplay {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: rgb(10, 10, 10);
+    height: 40px;
+    width:120px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: large;
+    border: none;
+    font-weight: bold;
+  
+    cursor: pointer;
+}
+.play {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: rgb(10, 10, 10);
+    height: 30px;
+    width:80px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: large;
+    border: none;
+    font-weight: bold;
+   
+    cursor: pointer;
+}
+.bigplay:hover{
+    height: 50px;
+    width:130px;
+}
+.play:hover{
+    height: 40px;
+    width:90px;
+}
+.feel{
+    position: relative;
+    top:30px;
+    left: 30px;
+    color: white;
+
+}
+.first-row-container,.second-row-container,.third-row-container {
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.first-row,.second-row,.third-row {
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.first-row::-webkit-scrollbar,.second-row::-webkit-scrollbar,.third-row::-webkit-scrollbar{
+    display: none;
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+.first-row,.second-row,.third-row {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.first-vedio {
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    z-index: 0;
+}
+
+.first-vedio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+.horror{
+    position: relative;
+    top:50px;
+    left: 30px;
+    color: white;
+}
+
+.romantic{
+    position: relative;
+    top:60px;
+    left: 30px;
+    color: white;
+}
+.thriller{
+    position: relative;
+    top:60px;
+    left: 30px;
+    color: white;
+}
+.scific{
+    position: relative;
+    top:60px;
+    left: 30px;
+    color: white; 
+}
+
+

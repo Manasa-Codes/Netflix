@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="styleh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" width="100px">
+        <nav>
+            <p>Home</p>
+            <p>TV Shows</p>
+            <p>Movies</p>
+            <p>New & Popular</p>
+            <p>My List</p>
+            <p>Browse By Languages</p>
+            <div class="nav-icons">
+                <i class="fas fa-search" id="search-icon"></i>
+                <i class="fas fa-bell"></i>
+            </div>
+            <div class="drop">
+                <select>
+                    <option><a href="">Manage profile</a></option>
+                    <option><a href="">Contact us</a></option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <div class="search-bar-container" id="search-bar-container">
+        <input type="text" placeholder="Titles, movies and people" id="search-bar">
+    </div>
+   
+    <div class="content">
+        <iframe id="main-video" width="1530" height="600"
+        src="https://www.youtube.com/embed/zSWdZVtXT7E?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0"
+        frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        
+        <button class="bigplay" onclick="playVideo('main-video')">Play</button>
+    </div>
+    <h2 class="feel">Feel Good Movies</h2>
+    <div class="first-row-container">
+       
+        <i class="fas fa-chevron-left arrow-left"></i>
+        <div class="first-row">
+            
+            <div class="first-vedio" >
+                <iframe id="video1" width="400" height="300"
+                src="https://www.youtube.com/embed/doPV-Shqm7k?si=SxsSxZ4cvjtJev2rautoplay=1&mute=1&controls=0&modestbranding=1&rel=0"
+            
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video1')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video2" width="400" height="300"
+                src="https://www.youtube.com/embed/eLMh-sC3GmI?si=YJfuCGhAe-deGagfautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video2')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video3" width="400" height="300"
+                src="https://www.youtube.com/embed/bUxd3jqCr94?si=sVYisOD1lLLirmkVautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video3')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video4" width="400" height="300"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+    frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+                <button class="play" onclick="playVideo('video4')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video5" width="400" height="300"
+                src="https://www.youtube.com/embed/2aVMlcBE1eA?si=dRchl0VcwSXLJO_jautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video5')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video6" width="400" height="300"
+                src="https://www.youtube.com/embed/vzazRt5_ZGc?si=kpK2vTuNA44V1Ew9autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video6')">Play</button>
+            </div>
+        </div>
+        <i class="fas fa-chevron-right arrow-right"></i>
+    </div>
+    <h2 class="horror">Horror Movies</h2>
+    <div class="second-row-container">
+       
+        <i class="fas fa-chevron-left arrow-left"></i>
+        <div class="second-row">
+            
+            <div class="first-vedio" >
+                <iframe id="video1" width="400" height="300"
+                src="https://www.youtube.com/embed/mUXpTAdu_8U?si=0rxHWa73wrtQpUa9autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video1')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video2" width="400" height="300"
+                src="https://www.youtube.com/embed/G1zwBrifFss?si=my4LEXe24cNFHBLyautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video2')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video3" width="400" height="300"
+                src="https://www.youtube.com/embed/lR01ERkqXFc?si=aeABJVCIx4ws0I_zautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video3')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video4" width="400" height="300"
+                src="https://www.youtube.com/embed/qCq6AWPeW_o?si=HSg28ytAFnWKb94bautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video4')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video5" width="400" height="300"
+                src="https://www.youtube.com/embed/BTshCCwo5Tw?si=scdgr8eNE2ffYWA8autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video5')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video6" width="400" height="300"
+                src="https://www.youtube.com/embed/OrOYvVf6tIM?si=rrbzsUI26nHuvxxFautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video6')">Play</button>
+            </div>
+        </div>
+        <i class="fas fa-chevron-right arrow-right"></i>
+    </div>
+    <h2 class="romantic">Romantic Movies</h2>
+    <div class="third-row-container">
+       
+        <i class="fas fa-chevron-left arrow-left"></i>
+        <div class="third-row">
+            
+            <div class="first-vedio" >
+                <iframe id="video1" width="400" height="300"
+                src="https://www.youtube.com/embed/OMxWORayfIc?si=GI346oEhUJ-hg6X5autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video1')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video2" width="400" height="300"
+                src="https://www.youtube.com/embed/MQse2ZtD-FM?si=ZuLQ396hDCOtt1IGautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video2')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video3" width="400" height="300"
+                src="https://www.youtube.com/embed/DUV47NXBriE?si=rrJfCu_H5PTFsT_eautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video3')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video4" width="400" height="300"
+                src="https://www.youtube.com/embed/q8TivsVt8jk?si=e9IcbkkDjQdrHROxautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video4')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video5" width="400" height="300"
+                src="https://www.youtube.com/embed/D9n9s_SMXoE?si=frqlvU3GEEiTGxNJautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video5')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video6" width="400" height="300"
+                src="https://www.youtube.com/embed/R0OXf7-SxNY?si=YU4DPX_bx0D8SpR8autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video6')">Play</button>
+            </div>
+        </div>
+        <i class="fas fa-chevron-right arrow-right"></i>
+    </div>
+    <h2 class="thriller">Thriller Movies</h2>
+    <div class="third-row-container">
+       
+        <i class="fas fa-chevron-left arrow-left"></i>
+        <div class="third-row">
+            
+            <div class="first-vedio" >
+                <iframe id="video1" width="400" height="300"
+                src="https://www.youtube.com/embed/kFi-dv6rt58?si=UmyPdNAfev92L_Ypautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video1')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video2" width="400" height="300"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video2')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video3" width="400" height="300"
+                src="https://www.youtube.com/embed/VwWq_QgsBcs?si=86o4RC2JDbaKNfvLautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video3')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video4" width="400" height="300"
+                src="https://www.youtube.com/embed/w7pbKjZV0yA?si=etT0KIrbeP2nADlgautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video4')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video5" width="400" height="300"
+                src="https://www.youtube.com/embed/h4AuPA-wdq8?si=7M2wIoV0DrWwbjA8autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video5')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video6" width="400" height="300"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video6')">Play</button>
+            </div>
+        </div>
+        <i class="fas fa-chevron-right arrow-right"></i>
+    </div>
+    <h2 class="scific">Scific Movies</h2>
+    <div class="third-row-container">
+       
+        <i class="fas fa-chevron-left arrow-left"></i>
+        <div class="third-row">
+            
+            <div class="first-vedio" >
+                <iframe id="video1" width="400" height="300"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video1')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video2" width="400" height="300"
+                src="https://www.youtube.com/embed/1m3Xtveofg0?si=zlV2hcNgy7Ma-JOfautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video2')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video3" width="400" height="300"
+                src="https://www.youtube.com/embed/_3mQ2qflxUg?si=u-kftUZm4L3kodk-autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video3')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video4" width="400" height="300"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video4')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video5" width="400" height="300"
+                src="https://www.youtube.com/embed/82jSYBRk54A?si=pOcVnSQfbwjUVElSautoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video5')">Play</button>
+            </div>
+            <div class="first-vedio">
+                <iframe id="video6" width="400" height="300"
+                src="https://www.youtube.com/embed/vYi8P5BWZ8g?si=i2U70LhvAFnWD0s3autoplay=0&mute=1&controls=0&modestbranding=1&rel=0"
+                frameborder="0" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <button class="play" onclick="playVideo('video6')">Play</button>
+            </div>
+        </div>
+        <i class="fas fa-chevron-right arrow-right"></i>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+ 

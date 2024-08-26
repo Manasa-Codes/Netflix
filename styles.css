@@ -1,0 +1,243 @@
+ body {
+    overflow: auto;
+    min-height: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    
+
+}
+
+ 
+
+ html,body{
+    overflow: auto;
+} 
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+      background-image: url("https://preview.redd.it/2jhtmqhg4mo81.png?width=1920&format=png&auto=webp&s=0d41709c3c478d2bcadfd8f2450271f175c0676f"); 
+     background-size: cover; 
+    filter: brightness(40%); 
+} 
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background-color: rgba(0, 0, 0, 0.5); 
+} 
+
+.netflix-text {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    font-family: 'Beon', sans-serif; 
+    font-weight: bolder; 
+    font-size: 48px; 
+    color: red;
+    z-index: 3; 
+}
+
+.content {
+    
+    margin-left: 35%;
+    
+    margin-top: 80px;
+    height: 640px;
+    z-index: 2;
+    width: 400px; 
+    padding: 20px;
+    border-color: grey;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+    position: absolute;
+    z-index: 3;
+}
+
+input {
+    position: relative;
+    left: 40px;
+    height: 33px;
+    width: 77%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#signin {
+    position: relative;
+    left: 40px;
+    height: 45px;
+    width: 80%;
+    padding: 15px;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#signin:hover {
+    background-color: darkred;
+}
+
+h1 {
+    position: relative;
+    margin-left: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    position: relative;
+    left: 170px;
+    font-style: inherit;
+    color: grey;
+}
+
+#code {
+    position: relative;
+    left: 40px;
+    height: 33px;
+    width: 77%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: rgb(253, 251, 251);
+    margin-top: 8px;
+}
+
+#code:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.a {
+    margin-top: 10px;
+}
+
+#forgot {
+    font-size: 16px;
+    position: relative;
+    left: 130px;
+    font-style: inherit;
+    color: rgb(250, 248, 248);
+    color:grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.remember-me input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 50px;
+    
+}
+
+.new-to-netflix {
+    margin-top: 10px;
+}
+
+.new-to-netflix p {
+    display: inline;
+    margin-left: 40px;
+    color: grey;
+}
+
+.new-to-netflix a {
+    display: inline;
+    color: rgb(250, 248, 248);
+    text-decoration: none; 
+    margin-left: 5px; 
+    z-index: 3;
+}
+
+#learn {
+    color: grey;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-decoration: none; 
+}
+
+.container{
+    height: 500px;
+    margin-top: 50%;
+    position: absolute;
+    background-color: black;
+    color:white;
+    z-index: 3;
+    width:100%;
+
+}
+#call{
+position: relative;
+left:20%;
+color:grey;
+top:30%;
+text-decoration:none;
+
+}
+#faq{
+  position: relative;
+  left:20%;
+  top:36%;
+  color:grey;
+}
+#coo{
+    position: relative;
+    left:17%;
+    top:44%;
+    color:grey;
+  }
+  #dropdown{
+    position: absolute;
+    left:19%;
+    top:65%;
+    height: 32px;
+    width:110px;
+    z-index: 2;
+    color: white;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.5); 
+     border-radius: 5px;
+     border-color: none;
+  }
+  #help{
+    position: relative;
+    left:40%;
+    top:30%;
+    color:grey;
+  }
+  #info{
+    position: absolute;
+    left:40%;
+    top:54%;
+    color:grey;
+  }
+  #terms {
+    position: relative;
+    left:50%;
+    top:30%;
+    color:grey;
+  }
+  #privacy{
+    position: relative;
+    left:57%;
+    top:30%;
+    color:grey;
+  }

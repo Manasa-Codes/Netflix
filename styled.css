@@ -1,0 +1,237 @@
+
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: rgb(44, 44, 44);
+            font-family: 'Arial', sans-serif; /* Fallback font */
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://preview.redd.it/2jhtmqhg4mo81.png?width=1920&format=png&auto=webp&s=0d41709c3c478d2bcadfd8f2450271f175c0676f");
+            background-size: cover;
+            filter: brightness(40%); /* Dull the image by reducing its brightness */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black overlay */
+        }
+
+        .netflix-text {
+            position: absolute;
+            top: 20px;
+            left: 110px;
+            color: red;
+            z-index: 2; /* Ensure it's above the overlay */
+        }
+        img{
+            width:100px;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 20px;
+            right: 220px; /* Adjust right position as needed */
+            z-index: 2; /* Ensure it's above the overlay */
+            width: 150px; /* Adjust width as needed */
+            height: 50px; /* Adjust height as needed */
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            border-radius: 5px; /* Optional: add rounded corners */
+            overflow: hidden; /* Ensure the options fit within the container */
+        }
+
+        .dropdown select {
+            width: 90%;
+            height: 70%;
+            background-color: transparent;
+            color: white;
+            border-color:white;
+            font-size: 16px; /* Adjust font size as needed */
+            padding: 5px;
+            border-radius: 5px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            outline: none; /* Remove outline on focus */
+        }
+
+        .dropdown select option {
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+            color: white;
+        }
+
+        #signin {
+            position: absolute;
+            top: 20px;
+            right: 100px; /* Adjust right position as needed */
+            z-index: 2; /* Ensure it's above the overlay */
+            background-color: red;
+            height: 35px;
+            width: 100px;
+            border-radius: 5px;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            border: none; /* Remove default border */
+        }
+
+        #signin:hover {
+            background-color: darkred;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center; /* Center align content */
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 23px;
+        }
+
+        input {
+            position: relative;
+            height: 50px;
+            width: 385px;
+            border-radius: 5px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-color: white;
+        }
+
+        #start {
+            position: relative;
+            left: 10px;
+            background-color: red;
+            height: 53px;
+            width: 200px;
+            border-radius: 5px;
+            color: white;
+            font-size: larger;
+            cursor: pointer;
+        }
+
+        #start:hover {
+            background-color: darkred;
+        }
+        .enjoy{
+            position: absolute;
+            margin-top:87%;
+            width:100% ;height: 500px;
+           background-color: rgb(0, 0, 0);
+        }
+        .download{
+            position: absolute;
+            margin-top:157%;
+            width:100% ;
+            height: 500px;
+           background-color: rgb(0, 0, 0);
+        }
+        .everywhere{
+            position: absolute;
+            margin-top:227%;
+            width:100% ;
+            height: 500px;
+           background-color: rgb(0, 0, 0);
+        }
+        .profile{
+            position: absolute;
+            margin-top:297%;
+            width:100% ;
+            height: 500px;
+           background-color: rgb(0, 0, 0);
+        }
+        .frequent{
+            position: absolute;
+            margin-top:392%;
+            width:100% ;
+            height: 880px;
+           background-color: rgb(0, 0, 0);
+        }
+        .container{
+            position: absolute;
+            margin-top:228%;
+            width:100% ;
+            height: 300px;
+            left: 0%;
+           background-color: rgb(0, 0, 0);
+        }
+        .watch{
+            width:600px;
+            margin-top: 0px;
+            margin-left: 200px;
+        }
+        .save{
+            width:600px;
+            margin-top: 0px;
+            margin-left: 200px;
+        }
+        .stream{
+            width:600px;
+            
+        }
+        .send{
+            width:600px;
+            margin-top: 0px;
+            
+        }
+        .faq-box {
+            border: none;
+            background-color: rgb(55, 55, 55);
+            padding: 30px;
+            margin: 10px;
+            margin-left: 15%;
+            width: 70%;
+            cursor: pointer;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+            max-height: 100px; /* Adjust based on the height of your h3 */
+        }
+        
+        .faq-box h3 {
+            margin: 0;
+            font-size: 20px;
+            color: white; /* Add color for better visibility */
+        }
+        
+        .faq-box p {
+            margin-top: 10px;
+            display: none;
+            color: white; /* Add color for better visibility */
+        }
+        
+        .faq-box.selected {
+            padding-bottom: 20px; /* Add some padding for aesthetics when expanded */
+        }
+        
+        .faq-box.selected p {
+            display: block;
+        }
+        
+        .faq-box.collapsed {
+            max-height: 100px; /* Adjust based on the height of your h3 */
+        }
+        
+        .faq-box.expanded {
+            max-height: 300px; /* Adjust based on the expected height of your expanded box */
+        }
+        
